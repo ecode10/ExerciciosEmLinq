@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{F0240C6D-2723-4AEE-BE6B-1A15741E65D4}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LinqExercises/Program.cs">
     <Files>
-      <File FileName="LinqExercises/Program.cs" Line="268" Column="33" />
+      <File FileName="LinqExercises/Program.cs" Line="291" Column="18" />
       <File FileName="LinqExercises/Animal.cs" />
-      <File FileName="LinqExercises/Dono.cs" Line="1" Column="1" />
+      <File FileName="LinqExercises/Dono.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +17,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.LinqExercises FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LinqExercises PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
