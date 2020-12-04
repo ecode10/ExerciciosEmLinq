@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{F0240C6D-2723-4AEE-BE6B-1A15741E65D4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LinqExercises/Dono.cs">
+    <Files>
+      <File FileName="LinqExercises/Program.cs" Line="1" Column="1" />
+      <File FileName="LinqExercises/Animal.cs" Line="16" Column="32" />
+      <File FileName="LinqExercises/Dono.cs" Line="6" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LinqExercises" expanded="True">
+            <Node name="LinqExercises" expanded="True">
+              <Node name="Dono.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LinqExercises FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

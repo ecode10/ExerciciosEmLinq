@@ -1,0 +1,12 @@
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/bin/Debug/netcoreapp3.1/LinqExercises.deps.json
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/bin/Debug/netcoreapp3.1/LinqExercises.runtimeconfig.json
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/bin/Debug/netcoreapp3.1/LinqExercises.runtimeconfig.dev.json
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/bin/Debug/netcoreapp3.1/LinqExercises.dll
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/bin/Debug/netcoreapp3.1/LinqExercises.pdb
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/obj/Debug/netcoreapp3.1/LinqExercises.csprojAssemblyReference.cache
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/obj/Debug/netcoreapp3.1/LinqExercises.AssemblyInfoInputs.cache
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/obj/Debug/netcoreapp3.1/LinqExercises.AssemblyInfo.cs
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/obj/Debug/netcoreapp3.1/LinqExercises.csproj.CoreCompileInputs.cache
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/obj/Debug/netcoreapp3.1/LinqExercises.dll
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/obj/Debug/netcoreapp3.1/LinqExercises.pdb
+/Users/mauriciojunior/Documents/GitHub/ExerciciosEmLinq/LinqExercises/LinqExercises/obj/Debug/netcoreapp3.1/LinqExercises.genruntimeconfig.cache
