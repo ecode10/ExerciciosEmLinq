@@ -5,6 +5,5 @@ namespace LinqExercises
     {
         public string Nome { get; set; }
         public int DonoId { get; set; }
-
     }
 }

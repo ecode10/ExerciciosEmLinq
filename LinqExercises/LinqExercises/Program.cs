@@ -266,6 +266,30 @@ namespace LinqExercises
             }
 
             Console.WriteLine();
+
+            //agrupar as informacoes de um inner join
+            //pegar todos os animais e criar um grupo pelo dono
+            var groupJoin = from dono in donos
+                            orderby dono.DonoId
+                            join animal in animals
+                                on dono.DonoId equals animal.AnimalId
+                                into grupoDeDonos
+                            select new
+                            {
+                                Donos = dono.Nome,
+                                Animal = from donos2 in grupoDeDonos
+                                         orderby donos2.Nome
+                                         select donos2
+                            };
+
+            foreach (var group in groupJoin)
+            {
+                Console.WriteLine($"Dono: {group.Donos}");
+                foreach (var animal in group.Animal)
+                {
+                    Console.WriteLine($"Animal: {animal.Nome}");
+                }
+            }
         }
     }
 }
