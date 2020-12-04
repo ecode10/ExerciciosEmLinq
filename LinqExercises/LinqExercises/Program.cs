@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 
 namespace LinqExercises
 {
@@ -14,6 +15,10 @@ namespace LinqExercises
             QueryIntArray();
 
             QueryArrayList();
+
+            QueryCollection();
+
+            QueryAnimalData();
 
             Console.ReadLine();
         }
@@ -144,7 +149,123 @@ namespace LinqExercises
                 }
             };
 
+            //selecionar os animais com peso maior de 90 e autura maior que 1
+            var animais = from animal in animalList
+                          where (animal.Peso >= 90) && (animal.Altura >= 1)
+                          orderby animal.Nome
+                          select animal;
 
+            foreach (var animal in animais)
+            {
+                Console.WriteLine($"Nome: {animal.Nome} e altura {animal.Altura}");
+            }
+
+            Console.WriteLine();
+        }
+
+        static void QueryAnimalData()
+        {
+            Animal[] animals = new[]
+            {
+                new Animal
+                {
+                    Nome = "German Shepherd",
+                    Altura = 25,
+                    Peso = 120,
+                    AnimalId = 1
+                },
+
+                new Animal
+                {
+                    Nome = "Chihuahua",
+                    Altura = 14,
+                    Peso = 12.3,
+                    AnimalId = 2
+                },
+
+                new Animal
+                {
+                    Nome = "Saint Bernard",
+                    Altura = 30,
+                    Peso = 40,
+                    AnimalId = 3
+                },
+
+                new Animal
+                {
+                    Nome = "Pug",
+                    Altura = 12,
+                    Peso = 144,
+                    AnimalId = 4
+                }
+            };
+
+            Dono[] donos = new[]
+            {
+                new Dono
+                {
+                    Nome = "Mauricio Junior",
+                    DonoId = 1
+                },
+
+                new Dono
+                {
+                    Nome = "Sally",
+                    DonoId = 2
+                },
+
+                new Dono
+                {
+                    Nome = "Marcos",
+                    DonoId = 3
+                },
+
+                new Dono
+                {
+                    Nome = "Junior",
+                    DonoId = 4
+                }
+            };
+
+            //remover o peso
+            var animalMenosPeso = from animal in animals
+                                  select new
+                                  {
+                                      animal.Nome,
+                                      animal.Altura
+                                  };
+
+            //convertendo em um array
+            Array animalMenosPesoArray = animalMenosPeso.ToArray();
+
+            foreach (var i in animalMenosPesoArray)
+            {
+                Console.WriteLine(i.ToString());
+            }
+
+            Console.WriteLine();
+
+            //create a inner join in donos e animais usando
+            //id de animais e id de donos
+            var innerJoin = from animal in animals
+                            join dono in donos
+                                on animal.AnimalId equals dono.DonoId
+                            orderby dono.Nome
+                            select new
+                            {
+                                NomeDono = dono.Nome,
+                                dono.DonoId,
+                                NomeAnimal = animal.Nome,
+                                animal.Peso,
+                                animal.AnimalId
+                            };
+
+            foreach (var join in innerJoin)
+            {
+                Console.WriteLine($"Dono: {join.NomeDono} Animal: {join.NomeAnimal}");
+            }
+
+            Console.WriteLine();
         }
     }
 }
